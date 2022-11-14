@@ -14,5 +14,11 @@ public class ShoppingBoxController {
     public ShoppingBoxController(ShoppingBoxService shoppingBoxService) {
         this.shoppingBoxService = shoppingBoxService;
     }
+    @GetMapping("/add")
+    public String addProduct() {
+
+        return "";
+
+    }
 
 }
